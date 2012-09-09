@@ -1,0 +1,13 @@
+
+/about.html
+/archive.html
+/atom.xml
+/categories.html
+/index.html
+/pages/about/index.html
+/pages/about.html
+/pages.html
+/sitemap.txt
+/tags.html
+
+/2012/09/09/test.html
