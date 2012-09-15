@@ -9,8 +9,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title :Petrie's Nest
-tagline: `
+title : Petrie's Nest
 author :
   name : Petrie 
   email : lpfvip2008@gmail.com
@@ -81,7 +80,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : petrie_disqus
     livefyre :
       site_id : 123
     intensedebate :
