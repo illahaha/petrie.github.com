@@ -80,7 +80,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : petrie_disqus
+      short_name : petriesnest
     livefyre :
       site_id : 123
     intensedebate :
