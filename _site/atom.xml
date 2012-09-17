@@ -4,7 +4,7 @@
  <title>Petrie's Nest</title>
  <link href="http://username.github.com/atom.xml" rel="self"/>
  <link href="http://username.github.com"/>
- <updated>2012-09-17T22:48:57+08:00</updated>
+ <updated>2012-09-17T23:09:03+08:00</updated>
  <id>http://username.github.com</id>
  <author>
    <name>Petrie</name>
@@ -17,22 +17,24 @@
    <link href="http://username.github.com/2012/09/17/post"/>
    <updated>2012-09-17T00:00:00+08:00</updated>
    <id>http://username.github.com/2012/09/17/post</id>
-   <content type="html"></content>
+   <content type="html">&lt;h2 id='markdown_test'&gt;MarkDown Test&lt;/h2&gt;
+
+&lt;h2 id='you_know'&gt;You Know&lt;/h2&gt;</content>
  </entry>
  
  <entry>
    <title>First Post</title>
-   <link href="http://username.github.com/ca_first,ca_post/2012/09/15/first-post"/>
+   <link href="http://username.github.com/ca_first, ca_post/2012/09/15/first-post"/>
    <updated>2012-09-15T00:00:00+08:00</updated>
-   <id>http://username.github.com/ca_first,ca_post/2012/09/15/first-post</id>
+   <id>http://username.github.com/ca_first, ca_post/2012/09/15/first-post</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>我在哪儿</title>
-   <link href="http://username.github.com/ca_petrie,ca_liupengfei/2012/09/09/test"/>
+   <link href="http://username.github.com/ca_petrie/ca_liupengfei/2012/09/09/test"/>
    <updated>2012-09-09T00:00:00+08:00</updated>
-   <id>http://username.github.com/ca_petrie,ca_liupengfei/2012/09/09/test</id>
+   <id>http://username.github.com/ca_petrie/ca_liupengfei/2012/09/09/test</id>
    <content type="html"></content>
  </entry>
  
