@@ -2,7 +2,7 @@
 layout: post
 title: "First Post"
 description: ""
-category: 
-tags: []
+category: ca_first,ca_post
+tags: [first,post]
 ---
 {% include JB/setup %}
