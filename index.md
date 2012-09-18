@@ -1,7 +1,7 @@
 ---
-layout: page
-title: IS NULL：
-tagline: Supporting tagline
+layout: page  
+title: 一个人能控制的只有自己
+tagline: 
 ---
 {% include JB/setup %}
 

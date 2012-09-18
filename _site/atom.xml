@@ -4,7 +4,7 @@
  <title>Petrie's Nest</title>
  <link href="http://username.github.com/atom.xml" rel="self"/>
  <link href="http://username.github.com"/>
- <updated>2012-09-18T22:36:35+08:00</updated>
+ <updated>2012-09-18T22:49:44+08:00</updated>
  <id>http://username.github.com</id>
  <author>
    <name>Petrie</name>
@@ -17,7 +17,7 @@
    <link href="http://username.github.com/linux/2012/09/18/linux-yum-iso"/>
    <updated>2012-09-18T00:00:00+08:00</updated>
    <id>http://username.github.com/linux/2012/09/18/linux-yum-iso</id>
-   <content type="html">&lt;h1 id='id33'&gt;扯淡&lt;/h1&gt;
+   <content type="html">&lt;h1 id='id27'&gt;扯淡&lt;/h1&gt;
 
 &lt;p&gt;公司的网络要用代理，许多非常cool的东西都玩不了，真垃圾。&lt;br /&gt;组长让搞一个LNMP的教程。&lt;br /&gt;上次在开发机上乱搞，把LNMP搞乱了，程序不能运行，调了好久，最后只好请来别的组的一位大神才解决。谁让自己是LNMP菜鸟呢!组里也都是做.Net的&lt;br /&gt;从此我就不敢再在开发机上乱弄了。 （这事才几天，缓缓再说）。&lt;/p&gt;
 
@@ -31,7 +31,7 @@
 
 &lt;p&gt;废话了这么多终于要进入正题了&amp;#8230;&lt;/p&gt;
 
-&lt;h1 id='id34'&gt;正题&lt;/h1&gt;
+&lt;h1 id='id28'&gt;正题&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;1&lt;/strong&gt;.将下好的dvdiso复制到虚拟机的 /home/petrie/ 下并重命名为centos.iso。此时iso的目录为/home/petrie/centos.iso&lt;br /&gt;&lt;strong&gt;2&lt;/strong&gt;.将dvdiso文件绑定到目录/mnt/centos_iso&lt;/p&gt;
 
