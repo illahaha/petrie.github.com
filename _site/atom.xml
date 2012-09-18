@@ -4,7 +4,7 @@
  <title>Petrie's Nest</title>
  <link href="http://username.github.com/atom.xml" rel="self"/>
  <link href="http://username.github.com"/>
- <updated>2012-09-17T23:09:03+08:00</updated>
+ <updated>2012-09-18T22:36:35+08:00</updated>
  <id>http://username.github.com</id>
  <author>
    <name>Petrie</name>
@@ -13,29 +13,81 @@
 
  
  <entry>
-   <title>TEST</title>
-   <link href="http://username.github.com/2012/09/17/post"/>
-   <updated>2012-09-17T00:00:00+08:00</updated>
-   <id>http://username.github.com/2012/09/17/post</id>
-   <content type="html">&lt;h2 id='markdown_test'&gt;MarkDown Test&lt;/h2&gt;
+   <title>利用CentOS.ISO配置本地yum源</title>
+   <link href="http://username.github.com/linux/2012/09/18/linux-yum-iso"/>
+   <updated>2012-09-18T00:00:00+08:00</updated>
+   <id>http://username.github.com/linux/2012/09/18/linux-yum-iso</id>
+   <content type="html">&lt;h1 id='id33'&gt;扯淡&lt;/h1&gt;
 
-&lt;h2 id='you_know'&gt;You Know&lt;/h2&gt;</content>
+&lt;p&gt;公司的网络要用代理，许多非常cool的东西都玩不了，真垃圾。&lt;br /&gt;组长让搞一个LNMP的教程。&lt;br /&gt;上次在开发机上乱搞，把LNMP搞乱了，程序不能运行，调了好久，最后只好请来别的组的一位大神才解决。谁让自己是LNMP菜鸟呢!组里也都是做.Net的&lt;br /&gt;从此我就不敢再在开发机上乱弄了。 （这事才几天，缓缓再说）。&lt;/p&gt;
+
+&lt;p&gt;开发联网上网不用通过代理，用起来爽啊，装点啥直接yum。&lt;/p&gt;
+
+&lt;p&gt;这几天还得把LNMP教程弄出来。&lt;/p&gt;
+
+&lt;p&gt;用不了开发机，只能在本机折腾了，先装mysql，源码安装要用到cmake，不能用yum（不能上网），自己找依赖吧。&lt;/p&gt;
+
+&lt;p&gt;本想依赖最多有1，2层吧，可是事实不是这样，各种深度，各种广度啊。果断改变策略。想起以前在uplooking学Linux的时候老师曾教过本地yum配置。所幸试一试。&lt;/p&gt;
+
+&lt;p&gt;废话了这么多终于要进入正题了&amp;#8230;&lt;/p&gt;
+
+&lt;h1 id='id34'&gt;正题&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;1&lt;/strong&gt;.将下好的dvdiso复制到虚拟机的 /home/petrie/ 下并重命名为centos.iso。此时iso的目录为/home/petrie/centos.iso&lt;br /&gt;&lt;strong&gt;2&lt;/strong&gt;.将dvdiso文件绑定到目录/mnt/centos_iso&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;mkdir /mnt/centos_iso&lt;br /&gt;mount -o loop /home/petrie/centos.iso /mnt/centos_iso&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;好了，现在光盘中的rpm都可以用来安装了，但是这能安装那些没有依赖的，有依赖的要自行处理，接下来要安装的东西后面会用到，十分幸运，她没有依赖&lt;/em&gt;&lt;br /&gt;&lt;strong&gt;3&lt;/strong&gt;.安装配置软件&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;cd /mnt/centos_iso/CentOS&lt;br /&gt;rpm -ivh createrepo-0.4.11-3.el5.noarch.rpm&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;4&lt;/strong&gt;.运行createrepo&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;cd /mnt&lt;br /&gt;createrepo &lt;strong&gt;./&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;这个过程挺长的2，3分钟吧&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5&lt;/strong&gt;.修改配置&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;cd /etc/yum.repos.d/&lt;br /&gt;vim dvdiso.repo&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在dvdiso.repo中写入以下内容：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;[DVDISO]&lt;br /&gt;name=DVD ISO&lt;br /&gt;baseurl=file:///mnt/ &lt;br /&gt;enabled=1&lt;br /&gt;gpgcheck=0&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;注意：__步骤5 需要将/etc/yum.repos.d/下的文件清空，也就是说/etc/yum.repos.d/下只能有dvdiso.repo文件__&lt;/p&gt;
+
+&lt;p&gt;这就好了，执行 yum clean all;yum list,执行成功则说明配置成功了。 赶紧装个软件试试吧~ pretty cool！ huh~&lt;/p&gt;</content>
  </entry>
  
  <entry>
-   <title>First Post</title>
-   <link href="http://username.github.com/ca_first, ca_post/2012/09/15/first-post"/>
-   <updated>2012-09-15T00:00:00+08:00</updated>
-   <id>http://username.github.com/ca_first, ca_post/2012/09/15/first-post</id>
-   <content type="html"></content>
- </entry>
- 
- <entry>
-   <title>我在哪儿</title>
-   <link href="http://username.github.com/ca_petrie/ca_liupengfei/2012/09/09/test"/>
-   <updated>2012-09-09T00:00:00+08:00</updated>
-   <id>http://username.github.com/ca_petrie/ca_liupengfei/2012/09/09/test</id>
-   <content type="html"></content>
+   <title>Linux挂载ISO文件</title>
+   <link href="http://username.github.com/linux/2012/09/18/linux-mount-iso"/>
+   <updated>2012-09-18T00:00:00+08:00</updated>
+   <id>http://username.github.com/linux/2012/09/18/linux-mount-iso</id>
+   <content type="html">&lt;h2 id='linux_iso'&gt;linux 下绑定ISO文件&lt;/h2&gt;
+
+&lt;p&gt;在/mnt下创建/mnt/centos_iso文件夹&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;mkdir /mnt/centos_iso&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;将/home/cksamba/share/下的centos.iso挂在到/mnt/centos_iso文件夹下&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;mount /home/cksamba/share/centos.iso \ /mnt/centos_iso -t iso9660 -o ro,loop=/dev/loop0&lt;/p&gt;
+&lt;/blockquote&gt;</content>
  </entry>
  
  

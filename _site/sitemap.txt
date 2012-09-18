@@ -10,6 +10,5 @@ http://username.github.com/pages.html
 http://username.github.com/sitemap.txt
 http://username.github.com/tags.html
 
-http://username.github.com/2012/09/17/post
-http://username.github.com/ca_first, ca_post/2012/09/15/first-post
-http://username.github.com/ca_petrie/ca_liupengfei/2012/09/09/test
+http://username.github.com/linux/2012/09/18/linux-yum-iso
+http://username.github.com/linux/2012/09/18/linux-mount-iso
