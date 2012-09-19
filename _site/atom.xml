@@ -4,7 +4,7 @@
  <title>Petrie's Nest</title>
  <link href="http://username.github.com/atom.xml" rel="self"/>
  <link href="http://username.github.com"/>
- <updated>2012-09-20T00:19:37+08:00</updated>
+ <updated>2012-09-20T00:22:03+08:00</updated>
  <id>http://username.github.com</id>
  <author>
    <name>Petrie</name>
@@ -23,15 +23,15 @@
 
 &lt;h1 id='vim'&gt;VIM的额外功能&lt;/h1&gt;
 
-&lt;h2 id='id73'&gt;区块选择&lt;/h2&gt;
+&lt;h2 id='id23'&gt;区块选择&lt;/h2&gt;
 
 &lt;p&gt;v：字符选择，会将光标经过的地方反白选择！&lt;br /&gt;V：行选择，会将光标经过的行反白选择！&lt;br /&gt;Ctrl+v：区块选择，可用长方形的方式选择资料&lt;br /&gt;y： 将反白的地方复制起来&lt;br /&gt;d： 将反白的地方删除掉&lt;/p&gt;
 
-&lt;h2 id='id74'&gt;多档案编辑&lt;/h2&gt;
+&lt;h2 id='id24'&gt;多档案编辑&lt;/h2&gt;
 
 &lt;p&gt;：n 编辑下一个档案 &lt;br /&gt;：N 编辑上一个档案&lt;br /&gt;：files 列出目前这个vim开启的所有档案&lt;/p&gt;
 
-&lt;h2 id='id75'&gt;多窗口功能&lt;/h2&gt;
+&lt;h2 id='id25'&gt;多窗口功能&lt;/h2&gt;
 
 &lt;p&gt;：sp /etc/hosts 在分割窗口中打开新文件&lt;br /&gt;ctrl+w+↑/j及ctrl+w+↓/j 在窗口之间移动：按键的按法是：先按下ctrl不放，再按下w后放开所有的按键，然后在按下j或向下箭头，则光标可移动到下方的窗口。 &lt;br /&gt;ctrl+w+q：关闭下方的窗口&lt;/p&gt;
 
@@ -45,7 +45,7 @@
    <link href="http://username.github.com/vim/2012/09/19/useful-vim-1"/>
    <updated>2012-09-19T00:00:00+08:00</updated>
    <id>http://username.github.com/vim/2012/09/19/useful-vim-1</id>
-   <content type="html">&lt;p&gt;n+空格键 ： 那个n表示【数字】，例如20。按下数字后在按空格键盘，光标会向有一栋这一行的n个字符。例如20+空格 则光标会向后面移动20个字符距离。&lt;br /&gt;0：移动到这一行的最前面字符处&lt;br /&gt;$：移动到这一行的最后面字符处&lt;br /&gt;&lt;strong&gt;H：光标移动到这个屏幕最上方那一行的第一个字符 &lt;br /&gt;M：光标移动到这个屏幕的中央那一行的第一个字符 &lt;br /&gt;L：光标移动到这个屏幕的最下方那一行的第一个字符&lt;/strong&gt;&lt;br /&gt;G：移动到这个文档的最后一行。&lt;br /&gt;n+回车键 ：n为数字。光标向下移动n行(常用) &lt;br /&gt;？word：向光标之上寻找一个字符串名称为word的字符串。&lt;br /&gt;：n1,n2s/word1/word2/g：n1与n2为数字。在第n1与n2行之间寻找word1这个字符串，并将该字符串取代为word2！举例来说，在100到200行之间搜索vbird并取代为VBIRD则：&lt;span&gt;:100,200s/vbrid/VBIRD/g&lt;/span&gt;&lt;br /&gt;1,$s/word1/word2/g：从第一行到最后一行寻找word1字符串，并替换&lt;br /&gt;1,$s/word1/word2/gc :需要确认的替换。&lt;br /&gt;​###删除、复制与黏贴###&lt;br /&gt;nx：n为数字，连续向后删除n个字符。举例来说，我要连续删除10个字符【10x】。 &lt;br /&gt;ndd：n为数字。删除光标所在的向下n列，例如20dd则是删除20列。&lt;br /&gt;d1G：删除光标所在到第一行的所有数据。&lt;br /&gt;dG：删除光标所在到最后一行的数据 &lt;br /&gt;d$：删除游标所在处，到该行的最后一个字符&lt;br /&gt;d0：删除游标所在处到行首的字符&lt;br /&gt;nyy，y1G，yG，y0，y$参考上文。&lt;br /&gt;p,P：p为将已复制的数据在光标下一行贴上，P则为贴在游标上一行！&lt;br /&gt;J：将光标所在列与下一列的数据结合成同一列。 &lt;br /&gt;&lt;strong&gt;c：重复删除多个数据，例如向下删除10行【10cj】&lt;/strong&gt;&lt;br /&gt;u：重复前一个动作。（&lt;strong&gt;常用&lt;/strong&gt;） &lt;br /&gt;Ctrl+r：重做上一个动作。（&lt;strong&gt;常用&lt;/strong&gt;）&lt;br /&gt;.：重复前一个动作，如果你想要重复删除，重复贴上等等动作。&lt;/p&gt;</content>
+   <content type="html">&lt;p&gt;n+空格键 ： 那个n表示【数字】，例如20。按下数字后在按空格键盘，光标会向有一栋这一行的n个字符。例如20+空格 则光标会向后面移动20个字符距离。&lt;br /&gt;0：移动到这一行的最前面字符处&lt;br /&gt;$：移动到这一行的最后面字符处&lt;br /&gt;&lt;strong&gt;H：光标移动到这个屏幕最上方那一行的第一个字符 &lt;br /&gt;M：光标移动到这个屏幕的中央那一行的第一个字符 &lt;br /&gt;L：光标移动到这个屏幕的最下方那一行的第一个字符&lt;/strong&gt;&lt;br /&gt;G：移动到这个文档的最后一行。&lt;br /&gt;n+回车键 ：n为数字。光标向下移动n行(常用) &lt;br /&gt;？word：向光标之上寻找一个字符串名称为word的字符串。&lt;br /&gt;：n1,n2s/word1/word2/g：n1与n2为数字。在第n1与n2行之间寻找word1这个字符串，并将该字符串取代为word2！举例来说，在100到200行之间搜索vbird并取代为VBIRD则：&lt;span&gt;:100,200s/vbrid/VBIRD/g&lt;/span&gt;&lt;br /&gt;1,$s/word1/word2/g：从第一行到最后一行寻找word1字符串，并替换&lt;br /&gt;1,$s/word1/word2/gc :需要确认的替换。 &lt;br /&gt;​&lt;h2&gt;删除、复制与黏贴&lt;/h2&gt; nx：n为数字，连续向后删除n个字符。举例来说，我要连续删除10个字符【10x】。 &lt;br /&gt;ndd：n为数字。删除光标所在的向下n列，例如20dd则是删除20列。&lt;br /&gt;d1G：删除光标所在到第一行的所有数据。&lt;br /&gt;dG：删除光标所在到最后一行的数据 &lt;br /&gt;d$：删除游标所在处，到该行的最后一个字符&lt;br /&gt;d0：删除游标所在处到行首的字符&lt;br /&gt;nyy，y1G，yG，y0，y$参考上文。&lt;br /&gt;p,P：p为将已复制的数据在光标下一行贴上，P则为贴在游标上一行！&lt;br /&gt;J：将光标所在列与下一列的数据结合成同一列。 &lt;br /&gt;&lt;strong&gt;c：重复删除多个数据，例如向下删除10行【10cj】&lt;/strong&gt;&lt;br /&gt;u：重复前一个动作。（&lt;strong&gt;常用&lt;/strong&gt;） &lt;br /&gt;Ctrl+r：重做上一个动作。（&lt;strong&gt;常用&lt;/strong&gt;）&lt;br /&gt;.：重复前一个动作，如果你想要重复删除，重复贴上等等动作。&lt;/p&gt;</content>
  </entry>
  
  <entry>
@@ -53,7 +53,7 @@
    <link href="http://username.github.com/linux/2012/09/18/linux-yum-iso"/>
    <updated>2012-09-18T00:00:00+08:00</updated>
    <id>http://username.github.com/linux/2012/09/18/linux-yum-iso</id>
-   <content type="html">&lt;h1 id='id71'&gt;扯淡&lt;/h1&gt;
+   <content type="html">&lt;h1 id='id21'&gt;扯淡&lt;/h1&gt;
 
 &lt;p&gt;公司的网络要用代理，许多非常cool的东西都玩不了，真垃圾。&lt;br /&gt;组长让搞一个LNMP的教程。&lt;br /&gt;上次在开发机上乱搞，把LNMP搞乱了，程序不能运行，调了好久，最后只好请来别的组的一位大神才解决。谁让自己是LNMP菜鸟呢!组里也都是做.Net的&lt;br /&gt;从此我就不敢再在开发机上乱弄了。 （这事才几天，缓缓再说）。&lt;/p&gt;
 
@@ -67,7 +67,7 @@
 
 &lt;p&gt;废话了这么多终于要进入正题了&amp;#8230;&lt;/p&gt;
 
-&lt;h1 id='id72'&gt;正题&lt;/h1&gt;
+&lt;h1 id='id22'&gt;正题&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;1&lt;/strong&gt;.将下好的dvdiso复制到虚拟机的 /home/petrie/ 下并重命名为centos.iso。此时iso的目录为/home/petrie/centos.iso&lt;br /&gt;&lt;strong&gt;2&lt;/strong&gt;.将dvdiso文件绑定到目录/mnt/centos_iso&lt;/p&gt;
 
