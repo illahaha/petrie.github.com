@@ -34,3 +34,6 @@ tags: [SQL Server]
 
 就这样吧!
 
+------
+###拾遗
+[参考文章](http://www.cnblogs.com/OpenCoder/archive/2010/03/18/1689321.html "参考文章")
