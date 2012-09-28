@@ -5,10 +5,6 @@ description: "SQLServer 远程登录"
 category: SQL Server
 tags: [SQL Server]  
 ---
-
-------   
-
-### SQLServer 2005 ###
  
 ------
 
