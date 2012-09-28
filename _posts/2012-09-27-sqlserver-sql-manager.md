@@ -27,11 +27,11 @@ tags: [SQL Server]
 
 ## 2.SQL Server 下连接访问远程数据库 ##
 简单来说其实就几条SQL语句。  
->exec sp_addlinkedserver 'myserver','','SQLOLEDB ','远程服务器名或ip地址'   
->exec sp_addlinkedsrvlogin 'myserver','false',null,'username','password'  
+`exec sp_addlinkedserver 'myserver','','SQLOLEDB ','远程服务器名或ip地址'`
+`exec sp_addlinkedsrvlogin 'myserver','false',null,'username','password'`
 
 有了上面两句就可以直接远程操作数据库了：  
->select * from myserver.database.dbo.table;  
+`select * from myserver.database.dbo.table;`
 
 就这样吧!  
 
