@@ -10,6 +10,8 @@ http://username.github.com/pages.html
 http://username.github.com/sitemap.txt
 http://username.github.com/tags.html
 
+http://username.github.com/Nginx/2012/09/29/nginx-options
+http://username.github.com/SQL Server/2012/09/27/sqlserver-sql-manager
 http://username.github.com/vim/2012/09/26/vim-define
 http://username.github.com/vim/2012/09/19/useful-vim-2
 http://username.github.com/vim/2012/09/19/useful-vim-1
