@@ -1,4 +1,11 @@
-## Array in Javascript ##
+---
+layout: post  
+title: "Array in Javascript"  
+description: "Array in Javascript"  
+category: javascript
+tags: [javascript, array]  
+---
+
 - javascript数组是无类型的：数组元素可以是任意类型，并且同一个数组中的不同元素也可能有不同的类型。  
 - 可以使用非负整数来索引数组。在这种情况下，数值装换为字符串，字符串作为属性名来用。  
 - 数组类型索引仅仅是对象属性名的一种特殊类型，这意味着Javascript数组没有越界的概念。
