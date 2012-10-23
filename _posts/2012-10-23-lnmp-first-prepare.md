@@ -11,7 +11,8 @@ tags: [linux]
 1. 安装依赖库：  
 	>yum -y install gcc gcc-c++ autoconf libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel libxml2 libxml2-devel zlib zlib-devel glibc glibc-devel glib2 glib2-devel bzip2 bzip2-devel ncurses ncurses-devel curl curl-devel e2fsprogs e2fsprogs-devel krb5 krb5-devel libidn libidn-devel openssl openssl-devel openldap openldap-devel nss_ldap openldap-clients openldap-servers
 
-	以上命令在连网下才能进行，如果不能联网需要配置本地yum源，配置方法请点击我以前的文章“[点击](http://petrie.github.com/linux/2012/09/18/linux-yum-iso/)”  
+	
+ 以上命令在连网下才能进行，如果不能联网需要配置本地yum源，配置方法请点击我以前的文章[点击](http://petrie.github.com/linux/2012/09/18/linux-yum-iso/)
 
 2. 下载安装所需的源码包：  
 	- **PHP**相关程序包  
