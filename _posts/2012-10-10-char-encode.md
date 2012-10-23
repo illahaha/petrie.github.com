@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "字符编码故事的笔记(很久很久以前) "  
+title: "字符编码故事的笔记"  
 description: "字符编码故事的笔记(很久很久以前) "  
 category: other
 tags: [unicode, ascii, gbk, gb2312]  

@@ -1,7 +1,7 @@
 ---
 layout: post  
-title: "LNMP环境搭建（一）--安装前准备"  
-description: "LNMP环境搭建（一）--安装前准备"  
+title: "LNMP环境搭建（一）安装前准备"  
+description: "LNMP环境搭建（一） 安装前准备"  
 category: linux
 tags: [linux]  
 ---
