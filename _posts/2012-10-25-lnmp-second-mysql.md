@@ -28,7 +28,7 @@ tags: [LNMP, MySQL]
 >-DWITH_EMBEDDED_SERVER=1 \  
 >-DENABLED_LOCAL_INFILE=1 \  
 >-DWITH_INNOBASE_STORAGE_ENGINE=1 \  
->-DWITHOUT_PARTITION_STORAGE_ENGINE=2 
+>-DWITHOUT_PARTITION_STORAGE_ENGINE=2  
 
 4. 编译安装
 >make && make install  
@@ -41,16 +41,17 @@ tags: [LNMP, MySQL]
 >cd /usr/local/mysql 
 >./scripts/mysql_install_db --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data --user=mysql  
 
- 如果执行成功会出来一堆提示信息。
+ 如果执行成功会出来一堆提示信息。  
 
- 现在你已经成功安装了MySQL。你可以用如下命令启动MySQL：  
->./support-files/mysql.server start  
+ 现在你已经成功安装了MySQL。你可以用如下命令启动MySQL：   
+>./support-files/mysql.server start   
 
- 用下面的命令访问MySQL：  
->./bin/mysql
+ 用下面的命令访问MySQL：   
+>./bin/mysql  
 
- 你应该已经发现我们成功登录了Mysql，但是没有提供用户名密码。这样的话任何人都可以登录了，这肯定不是你想要的。  
-7. 可以通过一下命令来为root设置密码
+ 你应该已经发现我们成功登录了Mysql，但是没有提供用户名密码。这样的话任何人都可以登录了，这肯定不是你想要的。 
+
+7. 可以通过一下命令来为root设置密码  
 >/usr/local/mysql/bin/mysqladmin -u root password '123123'
 
  我们的密码是123123。  
