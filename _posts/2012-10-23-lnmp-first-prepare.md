@@ -29,7 +29,7 @@ tags: [linux]
     - **Nginx** 相关程序包   
 	1. Nginx源码包：[点击](http://nginx.org/download/nginx-1.2.4.tar.gz)    
     - **MySQL**相关程序包   
-	1. MySQL源码包：[点击](http://dev.mysql.com/get/Downloads/MySQL-5.5/mysql-5.5.3-m3.tar.gz/from/http://mysql.he.net/)  
+	1. MySQL源码包：[点击](http://www.mysql.com/get/Downloads/MySQL-5.5/mysql-5.5.28.tar.gz/from/http://cdn.mysql.com/)  
 
 本文旨在在张宴博客的基础上，使得安装过程更加清晰易懂，更加适合新手。
 
