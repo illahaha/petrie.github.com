@@ -13,7 +13,7 @@ tags: [LNMP, MySQL]
 
 2. 解压源码包并进入  
 >tar zxvf mysql-5.5.3-m3.tar.gz  
->cd mysql-5.5.3-m3 
+>cd mysql-5.5.3-m3  
 
 3. cmake配置编译参数  
 >cmake -DCMAKE_INSTALL_PREFIX=/usr/local/mysql \  
@@ -53,7 +53,7 @@ tags: [LNMP, MySQL]
 7. 可以通过一下命令来为root设置密码
 >/usr/local/mysql/bin/mysqladmin -u root password '123123'
 
-	我们的密码是123123。
-	这样再执行`./bin/mysql`的时候就会提示你需要密码了。
+ 我们的密码是123123。  
+ 这样再执行`./bin/mysql`的时候就会提示你需要密码了。
 
 8. 好了，这就完事了。
