@@ -15,7 +15,7 @@ tags: [LNMP, MySQL]
 >tar zxvf mysql-5.5.3-m3.tar.gz  
 >cd mysql-5.5.3-m3  
 
-3. cmake配置编译参数  
+3. 配置cmake编译参数  
 >cmake -DCMAKE_INSTALL_PREFIX=/usr/local/mysql \  
 >-DSYSCONFDIR=/usr/local/mysql/etc   \  
 >-DMYSQL_DATADIR=/usr/local/mysql/data \   
