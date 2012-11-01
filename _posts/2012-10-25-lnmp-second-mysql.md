@@ -7,15 +7,15 @@ tags: [LNMP, MySQL]
 ---
 **编译安装MySQL**  
 
-1. 创建组和用户
+创建组和用户
 >groupadd mysql  
 >useradd -g mysql mysql  
 
-1. 解压源码包并进入  
+- 解压源码包并进入  
 >tar zxvf mysql-5.5.3-m3.tar.gz  
 >cd mysql-5.5.3-m3  
 
-1. 配置cmake编译参数  
+- 配置cmake编译参数  
 >cmake -DCMAKE_INSTALL_PREFIX=/usr/local/mysql \  
 >-DSYSCONFDIR=/usr/local/mysql/etc   \  
 >-DMYSQL_DATADIR=/usr/local/mysql/data \   
@@ -30,14 +30,14 @@ tags: [LNMP, MySQL]
 >-DWITH_INNOBASE_STORAGE_ENGINE=1 \  
 >-DWITHOUT_PARTITION_STORAGE_ENGINE=2  
 
-1. 编译安装
+- 编译安装
 >make && make install  
 
-1. 将安装目录极其子目录的所属组和拥有者设置为mysql:mysql  
+- 将安装目录极其子目录的所属组和拥有者设置为mysql:mysql  
 >chown -R mysql:mysql /usr/local/mysql   
 >cd .. 
 
-1. 以mysql用户帐号的身份建立数据表：  
+- 以mysql用户帐号的身份建立数据表：  
 >cd /usr/local/mysql 
 >./scripts/mysql_install_db --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data --user=mysql  
 
@@ -51,10 +51,10 @@ tags: [LNMP, MySQL]
 
  你应该已经发现我们成功登录了Mysql，但是没有提供用户名密码。这样的话任何人都可以登录了，这肯定不是你想要的。 
 
-1. 可以通过一下命令来为root设置密码  
+- 可以通过一下命令来为root设置密码  
 >/usr/local/mysql/bin/mysqladmin -u root password '123123'
 
  我们的密码是123123。  
  这样再执行`./bin/mysql`的时候就会提示你需要密码了。 
 
-1. 好了，这就完事了。
+- 好了，这就完事了。
