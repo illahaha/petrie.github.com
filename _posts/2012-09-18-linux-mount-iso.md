@@ -11,5 +11,7 @@ tags: [linux, centos, mount, iso]
 >mkdir /mnt/centos_iso
     
 将/home/cksamba/share/下的centos.iso挂在到/mnt/centos_iso文件夹下
->mount /home/cksamba/share/centos.iso \
->/mnt/centos_iso -t iso9660 -o ro,loop=/dev/loop0
+>mount /home/cksamba/share/centos.iso /mnt/centos_iso -t iso9660 -o ro,loop=/dev/loop0
+
+或者
+>mount  /home/cksamba/share/centos.iso /mnt/centos_iso -o loop -t iso9660
