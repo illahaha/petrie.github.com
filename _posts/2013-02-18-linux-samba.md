@@ -7,9 +7,9 @@ tags: [linux, samba]
 ---
 ##Linux下搭建Samba服务器##
 **安装文件**  
-三种方式获取安装文件	
+三种方式获取安装文件  	
 *1.网络下载*   
-在http://rpmfind.net搜索"samba"  
+在http://rpmfind.net搜索"samba",下载对应rpm文件  
 *2.安装光盘*  
 通过mount绑定到系统，然后拷贝使用[详见](http://http://petrie.github.com/linux/2012/09/18/linux-mount-iso/)  
 *3.iso文件*   
