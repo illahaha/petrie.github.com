@@ -5,17 +5,21 @@ description: "Linux下搭建Samba服务器"
 category: linux
 tags: [linux, samba]
 ---
-
+##Linux下搭建Samba服务器##
 **安装文件**  
 三种方式获取安装文件	
-1.网络下载	
-2.安装光盘  
-3.iso文件  
+*1.网络下载*   
+在http://rpmfind.net搜索"samba"  
+*2.安装光盘*  
+通过mount绑定到系统，然后拷贝使用[详见](http://http://petrie.github.com/linux/2012/09/18/linux-mount-iso/)  
+*3.iso文件*   
+通过mount绑定到系统，然后拷贝使用[详见](http://http://petrie.github.com/linux/2012/09/18/linux-mount-iso/)    
 
 **安装命令**  
 采用RPM方式安装。  
-rpm -ivh samba.rpm  
+>rpm -ivh samba_版本信息.rpm  
 
 **配置Samba**  
-配置文件位置:/etc/samba/smb.conf
+配置文件位置:
+>/etc/samba/smb.conf
 
