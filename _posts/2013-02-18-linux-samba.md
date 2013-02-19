@@ -6,6 +6,7 @@ category: linux
 tags: [linux, samba]
 ---
 ##Linux下搭建Samba服务器##
+
 - **安装文件**  
 三种方式获取安装文件  
 *1. 网络下载*   
