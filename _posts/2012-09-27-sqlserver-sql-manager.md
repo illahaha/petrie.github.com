@@ -4,6 +4,7 @@ title: "SQLServer 便捷管理多个服务器"
 description: "SQLServer 远程登录"  
 category: SQL Server
 tags: [SQL Server]  
+published: flase
 ---
  
 ------
