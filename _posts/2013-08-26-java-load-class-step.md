@@ -2,7 +2,7 @@
 layout: post  
 title: "Java Class 生命周期"  
 description: "Java Class 生命周期"  
-category: Java
+category: Jvm
 tags: [Java, Class, Jvm]
 ---
 
